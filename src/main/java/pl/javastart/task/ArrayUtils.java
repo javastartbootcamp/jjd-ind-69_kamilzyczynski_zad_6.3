@@ -3,9 +3,9 @@ package pl.javastart.task;
 import java.util.Scanner;
 
 public class ArrayUtils {
-    Scanner scanner = new Scanner(System.in);
 
     int[][] createArray() {
+        Scanner scanner = new Scanner(System.in);
         int rows;
         int columns;
         boolean incorrectNumber = true;
