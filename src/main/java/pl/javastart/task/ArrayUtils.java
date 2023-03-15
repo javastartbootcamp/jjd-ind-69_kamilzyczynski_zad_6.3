@@ -39,8 +39,8 @@ public class ArrayUtils {
                 System.out.printf("%3d |", anInt);
             }
             System.out.println();
-            System.out.print("-----------------------------------");
-            System.out.println();
+            String separator = "-----".repeat(ints.length);
+            System.out.println(separator);
         }
     }
 }
